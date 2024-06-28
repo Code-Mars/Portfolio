@@ -51,7 +51,7 @@ const About = () => {
         }
     }, [dots, trunk])
     return (
-        <div className="flex overflow-hidden justify-around items-center font-mono px-16 h-[80vh]" id="bg">
+        <div className="flex overflow-hidden justify-around items-center font-mono px-16 h-[82vh]" id="bg">
             <div className="ml-20 w-3/5 flex flex-col">
                 <div className="text-primaryColor text-3xl">Hi, I am</div>
                 <div className="text-white text-[4.25rem] font-extrabold">{Info.name}</div>
