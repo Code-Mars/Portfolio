@@ -4,7 +4,7 @@ import SideBar from "./SideBar";
 const links=["About","Projects","Skills","Experience","Contact"];
 const navLinks=(col:Boolean)=>{
     return links.map((link, index)=>{
-        return  <a  className={`${col?'flex flex-col items-center':''} text-textColor text-lg font-mono hover:text-primaryColor`} href={`#${link}`}><span className="text-primaryColor">0{index+1}. </span>{link}</a>
+        return  <a key={index} className={`${col?'flex flex-col items-center':''} text-textColor text-lg font-mono hover:text-primaryColor`} href={`#${link}`}><span className="text-primaryColor">0{index+1}. </span>{link}</a>
     })
 }
 

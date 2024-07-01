@@ -6,8 +6,8 @@ const Social=()=>{
         {link:"https://www.instagram.com/code.marshal_", icon:IconBrandInstagram}, {link:"https://www.youtube.com/channel/UC1ki6jaFvFiH_E79b9FYptw", icon:IconBrandYoutube},
         {link:"https://www.leetcode.com/u/CodeMars", icon:IconBrandLeetcode}
     ];
-    const socialIcons=socialLinks.map((socialLink)=>{
-        return <a href={`${socialLink.link}`} target="_blank"  className="font-mono text-lg  hover:text-primaryColor hover:-translate-x-2 transition transform duration-300 ease-in-out">
+    const socialIcons=socialLinks.map((socialLink, index)=>{
+        return <a key={index} href={`${socialLink.link}`} target="_blank"  className="font-mono text-lg  hover:text-primaryColor hover:-translate-x-2 transition transform duration-300 ease-in-out">
         <socialLink.icon className="-rotate-90" size={30} />
     </a>
     })

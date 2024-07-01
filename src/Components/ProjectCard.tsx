@@ -13,7 +13,7 @@ const ProjectCard = (props: any) => {
         </Card.Section>
 
         <Group justify="space-between" mt="xs" mb="xs">
-            <Text className="!text-2xl gap-2 !font-bold !text-white flex items-center" >{props.title}{props.live === true && <Badge variant="outline" color="red" rightSection={<Indicator color="red" position="middle-end" size={7} processing></Indicator>} >Live</Badge>}</Text>
+            <div className="!text-2xl gap-2 !font-bold !text-white flex items-center" >{props.title}{props.live === true && <Badge variant="outline" color="red" rightSection={<Indicator color="red" position="middle-end" size={7} processing></Indicator>} >Live</Badge>}</div>
 
         </Group>
         <Group mb="sm">
