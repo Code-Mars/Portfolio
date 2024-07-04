@@ -8,7 +8,7 @@ const SkillBadge=(skills:[])=>{
 }
 
 const SkillCard =(props:any)=>{
-    return <div className="w-[49%] shadow-[0_0_10px_0_#64FFDA50] rounded-3xl  border border-primaryColor p-5 ">
+    return <div data-aos="fade-up"   data-aos-duration="800" data-aos-easing="ease-in-sine" className="w-[49%] shadow-[0_0_10px_0_#64FFDA50] rounded-3xl  mb-3 border border-primaryColor p-5 ">
         <div className="text-3xl mb-4 text-white text-center font-bold ">{props.title}</div>
         <div className="flex gap-3 justify-center flex-wrap">
             {SkillBadge(props.skills)}

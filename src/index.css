@@ -5,39 +5,20 @@
  html{
     --primary-color:"#64FFDA";
  }
-
-.dm-mono-light {
-  font-family: "DM Mono", monospace;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.dm-mono-regular {
-  font-family: "DM Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.dm-mono-medium {
-  font-family: "DM Mono", monospace;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.dm-mono-light-italic {
-  font-family: "DM Mono", monospace;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.dm-mono-regular-italic {
-  font-family: "DM Mono", monospace;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.dm-mono-medium-italic {
-  font-family: "DM Mono", monospace;
-  font-weight: 500;
-  font-style: italic;
-}
+ ::-webkit-scrollbar-track
+ {
+   border-radius: 10px;
+   background-color: #112240;
+ }
+ 
+::-webkit-scrollbar
+ {
+   width: 4px;
+   background-color: #112240;
+ }
+ 
+ ::-webkit-scrollbar-thumb
+ {
+   border-radius: 10px;
+   background-color: #64FFDA;
+ }

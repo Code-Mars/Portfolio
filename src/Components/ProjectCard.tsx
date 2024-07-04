@@ -3,7 +3,7 @@ import { useDisclosure } from "@mantine/hooks";
 import FullProjectModal from "./FullProjectModal";
 const ProjectCard = (props: any) => {
     const [opened, { open, close }] = useDisclosure(false);
-    return <><Card onClick={open} className="!bg-bgColor cursor-pointer transition-transform duration-300 ease-in-out hover:!scale-[1.02] mb-5 hover:!shadow-[0_0_10px_1px_#64FFDA80] !border-primaryColor border-2" w="360px" shadow="lg" padding="sm" radius="lg" withBorder>
+    return <div><Card onClick={open}  className="!bg-bgColor cursor-pointer transition-transform duration-300 ease-in-out hover:!scale-[1.02] mb-5 hover:!shadow-[0_0_10px_1px_#64FFDA80] !border-primaryColor border-2" w="360px" shadow="lg" padding="sm" radius="lg" withBorder>
         <Card.Section className="p-3">
             <Image
                 className="!rounded-xl !shadow-[0_0_5px_0_#64FFDA]"
@@ -28,7 +28,7 @@ const ProjectCard = (props: any) => {
         </Button>
     </Card>
         <FullProjectModal opened={opened} close={close} title={props.title} desc={props.desc} image={props.image} live={props.live} link={props.link} github={props.github} technologies={props.technologies} />
-    </>
+    </div>
 
 }
 export default ProjectCard;
