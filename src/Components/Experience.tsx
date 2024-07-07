@@ -26,7 +26,7 @@ const TimelineItem = (items: any) => {
 }
 
 const Experience = () => {
-    return <div className="px-16 mx-20 my-10 mb-28 font-mono" id="Skills">
+    return <div className="px-16 mx-20 my-10 mb-28 font-mono" id="Experience">
         <h1 className="text-4xl mb-10 font-bold text-center text-white"><span className="text-primaryColor">04.&nbsp;</span>Experience</h1>
         <Timeline color="#64FFDA" active={5} bulletSize={30} lineWidth={2}>
             {

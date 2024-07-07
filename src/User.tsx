@@ -9,7 +9,7 @@ const Info = {
 
 const ProjectInfo = [
     {
-        title: "Ekart E-commerce App",
+        title: "Ekart E-comm App",
         desc: "Ekart is a modern, fully responsive e-commerce platform built using React, TailwindCSS, Heroicons, and HeadlessUI, offering a seamless shopping experience across all devices. It features secure user authentication with login, registration, and logout functionalities. Users can add items to a wishlist or remove them, search for specific products, and add them to a shopping cart for purchase. The checkout process includes form validation for address and payment information, ensuring accuracy and security. After purchase, users can view their order history in the Orders section. Ekart combines robust functionality with a sleek, intuitive design, making online shopping effortless and enjoyable.",
         image: "Ekart.png",
         live: true,
