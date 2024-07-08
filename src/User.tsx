@@ -1,7 +1,7 @@
 
 const Info = {
     name: "Chandrabhan Maurya",
-    stack: ["Software Engineer", "Full Stack Web Developer", "Competitive Programmer", "Freelancer", "Open Source Contributor"],
+    stack: ["Software Engineer", "Full Stack Developer", "Competitive Programmer", "Freelancer", "Open Source Contributor"],
     bio: "I'm a passionate software engineer specialized in crafting efficient and scalable solutions, deliver top-notch web applications, and provide freelance services that exceed client expectations. Let's connect and create something amazing together!"
 }
 
@@ -13,7 +13,7 @@ const ProjectInfo = [
         desc: "Ekart is a modern, fully responsive e-commerce platform built using React, TailwindCSS, Heroicons, and HeadlessUI, offering a seamless shopping experience across all devices. It features secure user authentication with login, registration, and logout functionalities. Users can add items to a wishlist or remove them, search for specific products, and add them to a shopping cart for purchase. The checkout process includes form validation for address and payment information, ensuring accuracy and security. After purchase, users can view their order history in the Orders section. Ekart combines robust functionality with a sleek, intuitive design, making online shopping effortless and enjoyable.",
         image: "Ekart.png",
         live: true,
-        technologies: ["React", "TailwindCSS", "Redux", "Heroicons", "HeadlessUI"],
+        technologies: ["React", "Tailwind", "Redux", "Heroicons", "HeadlessUI"],
         link: "https://code-mars.github.io/Ekart/",
         github: "https://github.com/Code-Mars/Ekart/"
     },
@@ -22,7 +22,7 @@ const ProjectInfo = [
         desc: "Facebook Clone is a full-stack web application that replicates the core features of Facebook, including user authentication, posting, and commenting. The front end is built with React, TailwinCSS, Tabler-Icons, Mantine and Firebase, while the back end uses Firebase for user authentication and data storage. Users can create an account, log in, post updates, and comment on posts. The app features real-time updates, so users can see new comments as they are posted. Facebook Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
         image: "Facebook.png",
         live: false,
-        technologies: ["React", "Springboot", "MongoDB", "TailwindCSS", "Tabler-Icons", "Firebase"],
+        technologies: ["React", "Springboot", "MongoDB", "Tailwind", "Tabler-Icons", "Firebase"],
         link: "https://github.com/Code-Mars/Facebook-Clone",
         github: "https://github.com/Code-Mars/Facebook-Clone"
     },
@@ -31,7 +31,7 @@ const ProjectInfo = [
         desc: "Spotify Clone is a full-stack web application that replicates the core features of Spotify, including user authentication, music playback, and playlist creation. The front end is built with React, TailwindCSS, Heroicons, and Firebase, while the back end uses Firebase for user authentication and data storage. Users can create an account, log in, search for songs, and create playlists. The app features real-time updates, so users can see new songs as they are added. Spotify Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
         image: "Spotify.png",
         live: false,
-        technologies: ["React", "Springboot", "TailwindCSS", "Tabler-Icons", "MongoDB", "Firebase"],
+        technologies: ["React", "Springboot", "Tailwind", "Tabler-Icons", "MongoDB", "Firebase"],
         link: "https://github.com/Code-Mars/Spotify-Clone",
         github: "https://github.com/Code-Mars/Spotify-Clone"
     },
@@ -49,7 +49,7 @@ const ProjectInfo = [
         desc: "Instagram Clone is a full-stack web application that replicates the core features of Instagram, including user authentication, image uploading, and commenting. The front end is built with React, TailwindCSS, and Heroicons, while the back end uses Firebase for user authentication and image storage. Users can create an account, log in, upload images, and comment on posts. The app features real-time updates, so users can see new comments as they are posted. Instagram Clone provides a seamless user experience with a clean, modern design and intuitive functionality.",
         image: "Instagram.png",
         live: false,
-        technologies: ["React", "Springboot", "TailwindCSS", "Heroicons", "Firebase", "MongoDB"],
+        technologies: ["React", "Springboot", "Tailwind", "Heroicons", "Firebase", "MongoDB"],
         link: "https://github.com/Code-Mars/Instagram-Clone",
         github: "https://github.com/Code-Mars/Instagram-Clone"
     },
@@ -58,7 +58,7 @@ const ProjectInfo = [
         desc: "CodeX is a modern, fully responsive code editor built using React, TailwindCSS, and Ace Editor, offering a seamless coding experience across all devices. It features syntax highlighting for popular programming languages, including HTML, CSS, JavaScript, Python, and Java. Users can create, edit, and save code files, with the option to download them as text files. CodeX combines robust functionality with a sleek, intuitive design, making coding effortless and enjoyable.",
         image: "CodeX.png",
         live: false,
-        technologies: ["React", "TailwindCSS", "Ace Editor"],
+        technologies: ["React", "Tailwind", "Ace Editor"],
         link: "https://github.com/Code-Mars/CodeX",
         github: "https://github.com/Code-Mars/CodeX"
     }
@@ -68,7 +68,7 @@ const ProjectInfo = [
 const SkillInfo = [
     {
         title: "Frontend",
-        skills: ["HTML", "CSS", "JavaScript", "React JS", "Angular", "Redux", "Tailwind CSS", "Material UI", "SASS", "Bootstrap", "GSAP"
+        skills: ["HTML", "CSS", "SASS", "JavaScript", "React JS", "Angular", "Redux", "Tailwind CSS","GSAP", "Material UI", "Bootstrap" 
         ]
     },
     {
@@ -81,7 +81,7 @@ const SkillInfo = [
     },
     {
         title: "Tools",
-        skills: ["Git", "Github", "VS Code", "MongoDB Compass", "Postman", "Spring Tool Suite"]
+        skills: ["Git", "Github", "VS Code","Postman", "MongoDB Compass", "Spring Tool Suite"]
     }
 ]
 
