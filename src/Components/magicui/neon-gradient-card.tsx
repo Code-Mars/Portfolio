@@ -142,7 +142,7 @@ const NeonGradientCard: React.FC<NeonGradientCardProps> = ({
           "before:animate-backgroundPositionSpin",
           "after:absolute after:-left-[var(--border-size)] after:-top-[var(--border-size)] after:-z-10 after:block",
           "after:h-[var(--pseudo-element-height)] after:w-[var(--pseudo-element-width)] after:rounded-[var(--border-radius)] after:blur-[var(--after-blur)] after:content-['']",
-          "after:bg-[linear-gradient(0deg,var(--neon-first-color),var(--neon-second-color))] after:bg-[length:100%_200%] after:opacity-80",
+          "after:bg-[linear-gradient(0deg,var(--neon-first-color),var(--neon-second-color))] after:bg-[length:100%_200%] after:overflow-visible after:opacity-80",
           "after:animate-backgroundPositionSpin",
           "dark:bg-neutral-900",
         )}

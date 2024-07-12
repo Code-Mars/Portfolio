@@ -15,9 +15,9 @@ const HomePage = () => {
     useEffect(()=>{
         setTimeout(()=>{
             setLoading(false);
-        }, 5000)
+        }, 5000) 
     }, [])
-    return <div className={` focus-visible:[&_button]:!outline-none min-h-[100vh] ${loading?"flex":""} items-center overflow-hidden justify-center`}>
+    return <div className={` focus-visible:[&_button]:!outline-none min-h-[100dvh] ${loading?"flex":""} items-center overflow-hidden justify-center`}>
 {   loading!==true?<>
         <Header />
         <About />

@@ -1,4 +1,4 @@
-
+import { IconBrandGithub, IconBrandInstagram, IconBrandLeetcode, IconBrandLinkedin, IconBrandYoutube } from "@tabler/icons-react";
 const Info = {
     name: "Chandrabhan Maurya",
     stack: ["Software Engineer", "Full Stack Developer", "Competitive Programmer", "Freelancer", "Open Source Contributor"],
@@ -68,7 +68,7 @@ const ProjectInfo = [
 const SkillInfo = [
     {
         title: "Frontend",
-        skills: ["HTML", "CSS", "SASS", "JavaScript", "React JS", "Angular", "Redux", "Tailwind CSS","GSAP", "Material UI", "Bootstrap" 
+        skills: ["HTML", "CSS", "SASS", "JavaScript", "React JS", "Angular", "Redux", "Tailwind CSS", "GSAP", "Material UI", "Bootstrap"
         ]
     },
     {
@@ -81,9 +81,17 @@ const SkillInfo = [
     },
     {
         title: "Tools",
-        skills: ["Git", "Github", "VS Code","Postman", "MongoDB Compass", "Spring Tool Suite"]
+        skills: ["Git", "Github", "VS Code", "Postman", "MongoDB Compass", "Spring Tool Suite"]
     }
 ]
+const socialLinks = [
+    { link: "https://github.com/Code-Mars", icon: IconBrandGithub },
+    { link: "https://www.linkedin.com/in/chandrabhan-maurya", icon: IconBrandLinkedin },
+    { link: "https://www.instagram.com/code.marshal_", icon: IconBrandInstagram }, 
+    { link: "https://www.youtube.com/channel/UC1ki6jaFvFiH_E79b9FYptw", icon: IconBrandYoutube },
+    { link: "https://www.leetcode.com/u/CodeMars", icon: IconBrandLeetcode }
+];
+
 
 const ExperienceInfo = [
     {
@@ -101,7 +109,7 @@ const ExperienceInfo = [
         skills: ["Java", "MySQL", "Hibernate", "Selenium", "Jenkins", "JIRA", "Automation Testing"]
     }
 ]
-const Slugs=[
+const Slugs = [
     "typescript",
     "spring",
     "javascript",
@@ -139,4 +147,4 @@ const Slugs=[
     "sonarqube",
     "figma",
 ];
-export { Info, ProjectInfo, SkillInfo, ExperienceInfo, Slugs};
+export { Info, ProjectInfo,socialLinks, SkillInfo, ExperienceInfo, Slugs };
