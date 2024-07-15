@@ -1,6 +1,7 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
+  "homepage": "https://code-mars.github.io/Portfolio",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",
@@ -32,6 +33,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -57,6 +60,7 @@
   },
   "devDependencies": {
     "@types/aos": "^3.0.7",
+    "gh-pages": "^6.1.1",
     "tailwindcss": "^3.4.4"
   }
 }
