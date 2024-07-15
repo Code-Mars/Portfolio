@@ -15,7 +15,7 @@ const SideBar=()=> {
         <Drawer.Overlay className='!-z-0 !backdrop-opacity-85 blur-sm' />
         <Drawer.Content className='!-z-0' bg="#112240">
           <Drawer.Body className='mt-20 xs:mt-24  flex flex-col gap-5' bg="#112240">
-            {navLinks(true)}
+            {navLinks(true, toggle)}
           </Drawer.Body>
         </Drawer.Content>
       </Drawer.Root>

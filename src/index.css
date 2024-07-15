@@ -4,6 +4,7 @@
 
  html{
     --primary-color:"#64FFDA";
+    scroll-behavior: smooth;
  }
  ::-webkit-scrollbar-track
  {
